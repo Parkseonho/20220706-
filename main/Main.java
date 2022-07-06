@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
+        /* 입력값에 따라 출력 내용이 변경, exit - 프로그램 종료 */
         while (true){
             System.out.print(">> ");
             String cmd = in.nextLine();
